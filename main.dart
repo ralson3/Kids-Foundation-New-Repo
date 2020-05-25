@@ -114,7 +114,19 @@ class LoginPageState extends State<LoginPage>
                         textColor: Colors.white,
                         child: new Text("Login"),
                         onPressed: () {},
-                      )
+                      ),
+                      new Padding(
+                        padding: const EdgeInsets.only(top: 30.0),
+                      ),
+                       new MaterialButton(
+                        height: 50.0,
+                        minWidth: 150.0,
+                        color: Colors.blueAccent,
+                        splashColor: Colors.teal,
+                        textColor: Colors.white,
+                        child: new Text("SignUP"),
+                        onPressed: () {},
+                          )
                     ],
                   ),
                 ),
