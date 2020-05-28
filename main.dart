@@ -56,7 +56,7 @@ class LoginPageState extends State<LoginPage>
               inputDecorationTheme: new InputDecorationTheme(
               //  hintStyle: new TextStyle(color: Colors.blue, fontSize: 20.0),
                 labelStyle:
-                new TextStyle(color: Colors.white, fontSize: 25.0, backgroundColor: Colors.blueAccent),
+                new TextStyle(color: Colors.white, fontSize: 25.0, backgroundColor: Colors.yellow[900]),
               )),
           isMaterialAppTheme: true,
 
@@ -109,7 +109,7 @@ class LoginPageState extends State<LoginPage>
                       new MaterialButton(
                         height: 50.0,
                         minWidth: 150.0,
-                        color: Colors.blueAccent,
+                        color: Colors.yellow[900],
                         splashColor: Colors.teal,
                         textColor: Colors.white,
                         child: new Text("Login"),
@@ -121,7 +121,7 @@ class LoginPageState extends State<LoginPage>
                        new MaterialButton(
                         height: 50.0,
                         minWidth: 150.0,
-                        color: Colors.blueAccent,
+                        color: Colors.yellow[900],
                         splashColor: Colors.teal,
                         textColor: Colors.white,
                         child: new Text("SignUP"),
